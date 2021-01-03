@@ -11,6 +11,7 @@
 
 ### Run server
 ```shell
+$ go mod tidy && go mod vendor
 $ source .env
 $ go run main.go users.go
 ```
